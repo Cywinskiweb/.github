@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 90" role="img" aria-label="Tech stack ticker">
+  <defs>
+    <clipPath id="tickerClip">
+      <rect x="0" y="0" width="1200" height="90"/>
+    </clipPath>
+    <linearGradient id="fadeL" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#F5F1E8" stop-opacity="1"/>
+      <stop offset="1" stop-color="#F5F1E8" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="fadeR" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#F5F1E8" stop-opacity="0"/>
+      <stop offset="1" stop-color="#F5F1E8" stop-opacity="1"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="90" fill="#F5F1E8"/>
+  <line x1="0" y1="1" x2="1200" y2="1" stroke="#1A1A1A" stroke-width="2"/>
+  <line x1="0" y1="8" x2="1200" y2="8" stroke="#1A1A1A" stroke-width="0.5"/>
+  <line x1="0" y1="82" x2="1200" y2="82" stroke="#1A1A1A" stroke-width="0.5"/>
+  <line x1="0" y1="89" x2="1200" y2="89" stroke="#1A1A1A" stroke-width="2"/>
+
+  <!-- label tag -->
+  <g>
+    <rect x="0" y="10" width="150" height="70" fill="#1A1A1A"/>
+    <text x="75" y="42" text-anchor="middle" font-family="Georgia, serif" font-size="11" fill="#F5F1E8" letter-spacing="3" font-style="italic">TECH</text>
+    <text x="75" y="60" text-anchor="middle" font-family="Georgia, serif" font-size="11" fill="#C9A961" letter-spacing="3" font-weight="700">STACK</text>
+  </g>
+
+  <g clip-path="url(#tickerClip)">
+    <g font-family="Georgia, 'Times New Roman', serif" font-size="18" fill="#1A1A1A">
+      <g>
+        <animateTransform attributeName="transform" type="translate" from="1200 0" to="-1600 0" dur="38s" repeatCount="indefinite"/>
+        <text y="52">
+          <tspan font-weight="700">NEXT.JS</tspan><tspan fill="#8B1E1E"> ▲ </tspan><tspan font-style="italic" fill="#6B6B6B">14.2</tspan>
+          <tspan dx="30" font-weight="700">REACT</tspan><tspan fill="#8B1E1E"> ● </tspan><tspan font-style="italic" fill="#6B6B6B">18.3</tspan>
+          <tspan dx="30" font-weight="700">TYPESCRIPT</tspan><tspan fill="#8B1E1E"> ■ </tspan><tspan font-style="italic" fill="#6B6B6B">5.4</tspan>
+          <tspan dx="30" font-weight="700">VITE</tspan><tspan fill="#8B1E1E"> ◆ </tspan><tspan font-style="italic" fill="#6B6B6B">5.2</tspan>
+          <tspan dx="30" font-weight="700">NODE.JS</tspan><tspan fill="#8B1E1E"> ▲ </tspan><tspan font-style="italic" fill="#6B6B6B">20 LTS</tspan>
+          <tspan dx="30" font-weight="700">EXPRESS</tspan><tspan fill="#8B1E1E"> ● </tspan><tspan font-style="italic" fill="#6B6B6B">4.19</tspan>
+          <tspan dx="30" font-weight="700">MONGODB</tspan><tspan fill="#8B1E1E"> ■ </tspan><tspan font-style="italic" fill="#6B6B6B">7.0</tspan>
+          <tspan dx="30" font-weight="700">FIREBASE</tspan><tspan fill="#8B1E1E"> ◆ </tspan><tspan font-style="italic" fill="#6B6B6B">v10</tspan>
+          <tspan dx="30" font-weight="700">ELECTRON</tspan><tspan fill="#8B1E1E"> ▲ </tspan><tspan font-style="italic" fill="#6B6B6B">30</tspan>
+          <tspan dx="30" font-weight="700">TAILWIND</tspan><tspan fill="#8B1E1E"> ● </tspan><tspan font-style="italic" fill="#6B6B6B">3.4</tspan>
+          <tspan dx="30" font-weight="700">FRAMER MOTION</tspan><tspan fill="#8B1E1E"> ■ </tspan><tspan font-style="italic" fill="#6B6B6B">11</tspan>
+          <tspan dx="30" font-weight="700">POSTGRES</tspan><tspan fill="#8B1E1E"> ◆ </tspan><tspan font-style="italic" fill="#6B6B6B">16</tspan>
+        </text>
+      </g>
+      <g>
+        <animateTransform attributeName="transform" type="translate" from="4000 0" to="-1 0" dur="38s" repeatCount="indefinite"/>
+        <text y="52">
+          <tspan font-weight="700">NEXT.JS</tspan><tspan fill="#8B1E1E"> ▲ </tspan><tspan font-style="italic" fill="#6B6B6B">14.2</tspan>
+          <tspan dx="30" font-weight="700">REACT</tspan><tspan fill="#8B1E1E"> ● </tspan><tspan font-style="italic" fill="#6B6B6B">18.3</tspan>
+          <tspan dx="30" font-weight="700">TYPESCRIPT</tspan><tspan fill="#8B1E1E"> ■ </tspan><tspan font-style="italic" fill="#6B6B6B">5.4</tspan>
+          <tspan dx="30" font-weight="700">VITE</tspan><tspan fill="#8B1E1E"> ◆ </tspan><tspan font-style="italic" fill="#6B6B6B">5.2</tspan>
+          <tspan dx="30" font-weight="700">NODE.JS</tspan><tspan fill="#8B1E1E"> ▲ </tspan><tspan font-style="italic" fill="#6B6B6B">20 LTS</tspan>
+          <tspan dx="30" font-weight="700">EXPRESS</tspan><tspan fill="#8B1E1E"> ● </tspan><tspan font-style="italic" fill="#6B6B6B">4.19</tspan>
+          <tspan dx="30" font-weight="700">MONGODB</tspan><tspan fill="#8B1E1E"> ■ </tspan><tspan font-style="italic" fill="#6B6B6B">7.0</tspan>
+          <tspan dx="30" font-weight="700">FIREBASE</tspan><tspan fill="#8B1E1E"> ◆ </tspan><tspan font-style="italic" fill="#6B6B6B">v10</tspan>
+          <tspan dx="30" font-weight="700">ELECTRON</tspan><tspan fill="#8B1E1E"> ▲ </tspan><tspan font-style="italic" fill="#6B6B6B">30</tspan>
+          <tspan dx="30" font-weight="700">TAILWIND</tspan><tspan fill="#8B1E1E"> ● </tspan><tspan font-style="italic" fill="#6B6B6B">3.4</tspan>
+          <tspan dx="30" font-weight="700">FRAMER MOTION</tspan><tspan fill="#8B1E1E"> ■ </tspan><tspan font-style="italic" fill="#6B6B6B">11</tspan>
+          <tspan dx="30" font-weight="700">POSTGRES</tspan><tspan fill="#8B1E1E"> ◆ </tspan><tspan font-style="italic" fill="#6B6B6B">16</tspan>
+        </text>
+      </g>
+    </g>
+  </g>
+
+  <rect x="150" y="10" width="60" height="70" fill="url(#fadeL)"/>
+  <rect x="1140" y="10" width="60" height="70" fill="url(#fadeR)"/>
+</svg>
