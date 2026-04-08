@@ -1,30 +1,21 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 60" role="img" aria-label="divider">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 40" role="img" aria-label="">
   <defs>
-    <linearGradient id="divGrad" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#1A1A1A" stop-opacity="0"/>
-      <stop offset="50%" stop-color="#1A1A1A" stop-opacity="1"/>
-      <stop offset="100%" stop-color="#1A1A1A" stop-opacity="0"/>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#F5F5F0" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#F5F5F0" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#F5F5F0" stop-opacity="0"/>
     </linearGradient>
-    <linearGradient id="goldGrad" x1="0" y1="0" x2="1" y2="0">
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0%" stop-color="#C9A961" stop-opacity="0"/>
-      <stop offset="50%" stop-color="#C9A961" stop-opacity="1"/>
+      <stop offset="50%" stop-color="#C9A961" stop-opacity="0.8"/>
       <stop offset="100%" stop-color="#C9A961" stop-opacity="0"/>
     </linearGradient>
   </defs>
-  <line x1="0" y1="20" x2="1200" y2="20" stroke="url(#divGrad)" stroke-width="0.8"/>
-  <path d="M 0 30 Q 300 20 600 30 T 1200 30" fill="none" stroke="url(#goldGrad)" stroke-width="1">
-    <animate attributeName="d"
-      values="M 0 30 Q 300 20 600 30 T 1200 30;
-              M 0 30 Q 300 40 600 30 T 1200 30;
-              M 0 30 Q 300 20 600 30 T 1200 30"
-      dur="6s" repeatCount="indefinite"/>
-  </path>
-  <g transform="translate(600 40)" font-family="Georgia, serif" fill="#8B1E1E">
-    <circle cx="-16" cy="0" r="1.5"/>
-    <circle cx="0" cy="0" r="2.5">
-      <animate attributeName="opacity" values="1;0.3;1" dur="2.6s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="16" cy="0" r="1.5"/>
-  </g>
-  <line x1="0" y1="52" x2="1200" y2="52" stroke="url(#divGrad)" stroke-width="0.8"/>
+  <line x1="0" y1="20" x2="1200" y2="20" stroke="url(#g)" stroke-width="0.5"/>
+  <line x1="460" y1="20" x2="740" y2="20" stroke="url(#gold)" stroke-width="0.8">
+    <animate attributeName="stroke-dasharray" values="0 280;140 140;0 280" dur="5s" repeatCount="indefinite"/>
+  </line>
+  <circle cx="600" cy="20" r="2" fill="#C9A961">
+    <animate attributeName="opacity" values="1;0.3;1" dur="2.4s" repeatCount="indefinite"/>
+  </circle>
 </svg>
