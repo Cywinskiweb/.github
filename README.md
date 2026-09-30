@@ -230,7 +230,7 @@ Wybrane projekty dla małych firm w Polsce i na świecie. Strony, marki, sklepy 
 </tr>
 </table>
 
-<a href="https://share.google/tD1hv94QYbM8iTzpg">Zobacz opinie ↗</a> &nbsp;·&nbsp; <a href="https://g.page/r/CQUwwehJTu8hEAE/review">Wystaw opinię ↗</a>
+<a href="https://g.page/r/CQUwwehJTu8hEBM">Zobacz opinie ↗</a> &nbsp;·&nbsp; <a href="https://g.page/r/CQUwwehJTu8hEAE/review">Wystaw opinię ↗</a>
 
 <img src="./assets/divider.svg" alt="" width="100%"/>
 
